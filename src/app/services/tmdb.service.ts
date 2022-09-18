@@ -4,7 +4,6 @@ import { OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
 import { Movies } from 'src/app/models/model-api';
 
-
 const enum endpoint {
   now_playing = '/movie/now_playing',
   animation = '/movie/12/recommendations', //35
